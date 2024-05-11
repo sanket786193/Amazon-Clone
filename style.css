@@ -216,19 +216,42 @@ ul a{
 }
 
 .foot-panel3{
+  width: 100%;
   background-color: #222d3a;
   color: white;
   border-top: 2px solid black;
   display: flex;
-  justify-content: center;
-  align-items: center;
+  justify-content: space-evenly;
   height: 70px;
 }
 .foot-logo{
-  background-image: url("Amazon-logo.png");
-  background-size: cover;
+  
   height: 60px;
-  width: 120px;
+  width: 100px;
+  background-color: #010521;
+
+}
+.foot-panel4{
+  height: 40px;
+  width: 100%;
+  background-color: #010521;
+  color: white;
+  display: flex;
+  justify-content: center;
 
 }
 
+.item{
+  width: 60%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.foot-copyright{
+  background-color: #010210;
+  width: 100%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
